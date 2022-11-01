@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.form-labels {
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.form-input {
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 0px;
+  text-align: center;
+}
+.employee-form {
+  padding: 10px 40px;
+  height: 100%;
+}
+.bgcolor {
+  background-color: #b1b1b1b3;
+  color: black;
+}
+.cancel-button {
+  border-radius: 8px;
+  padding: 5px 20px;
+  border: none;
+  background-color: #23236c5e;
+  color: white;
+  font-weight: 500;
+  margin: 15px 10px;
+  float: right;
+}
+.save-button {
+  border-radius: 8px;
+  padding: 5px 20px;
+  border: none;
+  background-color: #23236c5e;
+  color: white;
+  font-weight: 500;
+  margin: 15px 10px;
+  float: right;
+}
+
+.yes{
+    transform: translate(21px, -3px);
+}
+/* table design css */
+table{
+  border: 1px solid gray;
+}
+table th {
+  border: 1px solid gray;
+  padding: 5px 15px;
+}
+table td {
+  border: 1px solid gray;
+  padding: 5px 15px;
+}
+/* responsive medai querry */
+
+@media (min-width: 100px) and (max-width: 790px){
+table th
+{   
+padding: 0%;
+  font-size: 10px;
+
+}
+table td
+{   
+padding: 0%;
+  font-size: 10px;
+
+}
+.form-input{
+  width: 90px;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 0px;
+  text-align: center;
+  font-size: 13px;
+}
+body{
+  background-color: red;
+}
+}
